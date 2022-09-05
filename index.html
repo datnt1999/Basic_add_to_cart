@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Shopping Cart</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Ecommerce</a>
+            <div class="shop-icon">
+                <i class='bx bx-shopping-bag' id="cart-icon"></i>
+                <div class="count-item">0</div>
+            </div>
+            <!-- Cart -->
+            <div class="cart">
+                <h2 class="cart-title">
+                    Your cart
+                </h2>
+                <div class="cart-content">
+                </div>
+
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- Buy button -->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <i class="bx bx-x" id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <section class="shop container">
+        <h2 class="section-title">Shop products</h2>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="./images/product-1.jpg" alt="" class="product-img">
+                <h2 class="product-title">RED SHIRT</h2>
+                <span class="price">$25</span>
+                <i class='bx bx-shopping-bag add-cart ' id="cart-icon"></i>
+            </div>
+            <div class="product-box">
+                <img src="./images/product-2.jpg" alt="" class="product-img">
+                <h2 class="product-title">BLACK SHOE</h2>
+                <span class="price">$100</span>
+                <i class='bx bx-shopping-bag add-cart ' id="cart-icon"></i>
+            </div>
+            <div class="product-box">
+                <img src="./images/product-3.jpg" alt="" class="product-img">
+                <h2 class="product-title">GRAY PANTS</h2>
+                <span class="price">$45</span>
+                <i class='bx bx-shopping-bag add-cart ' id="cart-icon"></i>
+            </div>
+            <div class="product-box">
+                <img src="./images/product-4.jpg" alt="" class="product-img">
+                <h2 class="product-title">BLUE SHIRT</h2>
+                <span class="price">$38</span>
+                <i class='bx bx-shopping-bag add-cart ' id="cart-icon"></i>
+            </div>
+            <div class="product-box">
+                <img src="./images/product-5.jpg" alt="" class="product-img">
+                <h2 class="product-title">GREY SHOE</h2>
+                <span class="price">$90</span>
+                <i class='bx bx-shopping-bag add-cart ' id="cart-icon"></i>
+            </div>
+            <div class="product-box">
+                <img src="./images/product-6.jpg" alt="" class="product-img">
+                <h2 class="product-title">BLACK SHIRT</h2>
+                <span class="price">$60</span>
+                <i class='bx bx-shopping-bag add-cart ' id="cart-icon"></i>
+            </div>
+            <div class="product-box">
+                <img src="./images/product-7.jpg" alt="" class="product-img">
+                <h2 class="product-title">BLACK SOCKS</h2>
+                <span class="price">$80</span>
+                <i class='bx bx-shopping-bag add-cart ' id="cart-icon"></i>
+            </div>
+            <div class="product-box">
+                <img src="./images/product-8.jpg" alt="" class="product-img">
+                <h2 class="product-title">BLACK WATCH</h2>
+                <span class="price">$45</span>
+                <i class='bx bx-shopping-bag add-cart ' id="cart-icon"></i>
+            </div>
+            <div class="product-box">
+                <img src="./images/product-9.jpg" alt="" class="product-img">
+                <h2 class="product-title">GOLD WATCH</h2>
+                <span class="price">$55</span>
+                <i class='bx bx-shopping-bag add-cart ' id="cart-icon"></i>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>
